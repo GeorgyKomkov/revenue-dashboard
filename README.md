@@ -1,1 +1,7 @@
-# revenue-dashboard
+# Тестовое задние  на  вакансию: Web-разработчик Frontend  Delta
+
+Откройте [https://revenue-dashboard-u3ld.onrender.com](https://revenue-dashboard-u3ld.onrender.com) в вашем браузере для просмотра.
+
+## Описание 
+
+В задании используется  html, css.js,  react. Сверстана таблица, при выборе кликом строки таблицы появляется график с данными по этой  строке. Для отображения графика использована библиотека Recharts.
