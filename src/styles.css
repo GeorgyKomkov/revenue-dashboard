@@ -1,0 +1,56 @@
+.revenue-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.revenue-table th, .revenue-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.revenue-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.revenue-table tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.revenue-table tr:hover {
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+
+.change {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.change.positive {
+  color: green;
+}
+
+.change.negative {
+  color: red;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.recharts-wrapper {
+  margin-top: 20px;
+}
+.chart-container {
+  width: 60%; 
+}
+.table-container {
+  width: 35%; 
+}
